@@ -2,7 +2,8 @@
 
 Plugin Chrome para remover Bloqueio de Assinatura em Sites de Notícias Brasileiros
 
-Para ativar, faca o download do projeto em ZIP.
+Para ativar, faça o download do projeto em ZIP.
+
 Depois descompacta a pasta do projeto
 
 1. Acesse [chrome://extensions/](chrome://extensions/) no seu chrome
