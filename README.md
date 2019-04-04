@@ -1,6 +1,6 @@
 # Plugin Chrome No Block News
 
-## Plugin Chrome para remover Bloqueio de Assinatura em Sites de Notícias Brasileiros
+### Plugin Chrome para remover Bloqueio de Assinatura em Sites de Notícias Brasileiros
 
 Para ativar, faça o download do projeto em ZIP.
 
