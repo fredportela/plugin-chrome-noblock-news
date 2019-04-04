@@ -1,0 +1,26 @@
+{  
+  "manifest_version":2,
+  "name":"Noticias Sem Bloqueio",
+  "description":"Desativa bloqueio de assinatura nos principais sites de noticia do Brasil",
+  "version":"1.0",
+  "author": "Fred Portela",
+  "browser_action":{  
+    "default_title": "Noticias Sem Bloqueio",
+    "default_icon": {
+      "16": "icones/block16.png",
+      "32": "icones/block32.png",
+      "48": "icones/block48.png",
+      "128": "icones/block128.png"
+    }
+  },
+  "permissions": [
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
