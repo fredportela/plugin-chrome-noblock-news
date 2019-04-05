@@ -8,7 +8,9 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://paywall.folha.uol.com.br/digital.json*",
                 "*://paywall.folha.uol.com.br/wall.json*",
                 "*://experience.tinypass.com/xbuilder/experience/execute*",
-                "*://acesso.estadao.com.br/paywall/pw.php*"
+                "*://acesso.estadao.com.br/paywall/pw.php*",
+                "*://static.infoglobo.com.br/paywall/register-piano/*/scripts/nova-tela-register.js",
+                "*://static.infoglobo.com.br/paywall/js/tiny.js"
             ]
     },
     ["blocking"]
