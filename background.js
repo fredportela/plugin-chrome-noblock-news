@@ -10,7 +10,7 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://experience.tinypass.com/xbuilder/experience*",
 				"*://buy.tinypass.com/checkout/offer/trackShow*",
                 "*://acesso.estadao.com.br/paywall/pw.php*",
-                "*://static.infoglobo.com.br/paywall/register-piano/*/scripts/nova-tela-register.js",
+                "*://static.infoglobo.com.br/paywall/register-piano/*",
                 "*://static.infoglobo.com.br/paywall/js/tiny.js"
             ]
     },
