@@ -12,6 +12,7 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://acesso.estadao.com.br/paywall/pw.php*",
                 "*://static.infoglobo.com.br/paywall/register-piano/*",
                 "*://static.infoglobo.com.br/paywall/js/tiny.js"
+				"*://www.netdeal.com.br/api/paywall/request"
             ]
     },
     ["blocking"]

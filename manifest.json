@@ -59,7 +59,8 @@
     "*://*.diarinho.com.br/*",
     "*://*.diariodaregiao.com.br/*",
 	"*://experience.tinypass.com/*",
-	"*://buy.tinypass.com/*"
+	"*://buy.tinypass.com/*",
+	"*://www.netdeal.com.br/api/paywall/request"
   ],
   "background": {
     "scripts": ["background.js"],
