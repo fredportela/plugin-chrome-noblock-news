@@ -11,7 +11,7 @@ chrome.webRequest.onBeforeRequest.addListener(
 				"*://buy.tinypass.com/checkout/offer/trackShow*",
                 "*://acesso.estadao.com.br/paywall/pw.php*",
                 "*://static.infoglobo.com.br/paywall/register-piano/*",
-                "*://static.infoglobo.com.br/paywall/js/tiny.js"
+                "*://static.infoglobo.com.br/paywall/js/tiny.js",
 				"*://www.netdeal.com.br/api/paywall/request"
             ]
     },
