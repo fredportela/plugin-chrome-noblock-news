@@ -61,7 +61,8 @@
 	"*://buy.tinypass.com/*",
 	"*://www.netdeal.com.br/api/paywall/request",
 	"*://gauchazh.clicrbs.com.br/*",
-	"*://api.clicrbs.com.br/paywall-api*"
+	"*://api.clicrbs.com.br/paywall-api*",
+	"*://authp.abril.com.br/*"
   ],
   "background": {
     "scripts": ["background.js"],

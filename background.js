@@ -13,7 +13,8 @@ chrome.webRequest.onBeforeRequest.addListener(
                 "*://static.infoglobo.com.br/paywall/register-piano/*",
                 "*://static.infoglobo.com.br/paywall/js/tiny.js",
 				"*://www.netdeal.com.br/api/paywall/request",
-				"*://api.clicrbs.com.br/paywall-api*"
+				"*://api.clicrbs.com.br/paywall-api*",
+				"*://authp.abril.com.br/*"
             ]
     },
     ["blocking"]
