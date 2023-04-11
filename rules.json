@@ -1,121 +1,110 @@
-{
-  "rule_list": [
-    {
-      "id": 1,
-      "priority": 1,
-      "action": { "type": "block" },
-      "condition": {
-        "url_filter": "*://static.folha.uol.com.br/paywall/online/config.json*",
-        "resource_types": ["xmlhttprequest"]
-      }
-    },
-    {
-      "id": 2,
-      "priority": 1,
-      "action": { "type": "block" },
-      "condition": {
-        "url_filter": "*://paywall.folha.uol.com.br/digital.json*",
-        "resource_types": ["xmlhttprequest"]
-      }
-    },
-    {
-      "id": 3,
-      "priority": 1,
-      "action": { "type": "block" },
-      "condition": {
-        "url_filter": "*://paywall.folha.uol.com.br/wall.json*",
-        "resource_types": ["xmlhttprequest"]
-      }
-    },
+[
 	{
-      "id": 4,
-      "priority": 1,
-      "action": { "type": "block" },
-      "condition": {
-        "url_filter": "*://paywall.folha.uol.com.br/wall.json*",
-        "resource_types": ["xmlhttprequest"]
-      }
-    },
+	  "id": 1,
+	  "priority": 1,
+	  "action": { "type": "block" },
+	  "condition": {
+		"url_filter": "*://static.folha.uol.com.br/paywall/online/config.json*",
+		"resource_types": ["xmlhttprequest"]
+	  }
+	},
 	{
-      "id": 5,
-      "priority": 1,
-      "action": { "type": "block" },
-      "condition": {
-        "url_filter": "*://experience.tinypass.com/xbuilder/experience*",
-        "resource_types": ["xmlhttprequest"]
-      }
-    },
+	  "id": 2,
+	  "priority": 1,
+	  "action": { "type": "block" },
+	  "condition": {
+		"url_filter": "*://paywall.folha.uol.com.br/digital.json*",
+		"resource_types": ["xmlhttprequest"]
+	  }
+	},
 	{
-      "id": 6,
-      "priority": 1,
-      "action": { "type": "block" },
-      "condition": {
-        "url_filter": "*://buy.tinypass.com/checkout/offer/trackShow*",
-        "resource_types": ["xmlhttprequest"]
-      }
-    },
+	  "id": 3,
+	  "priority": 1,
+	  "action": { "type": "block" },
+	  "condition": {
+		"url_filter": "*://paywall.folha.uol.com.br/wall.json*",
+		"resource_types": ["xmlhttprequest"]
+	  }
+	},
 	{
-      "id": 7,
-      "priority": 1,
-      "action": { "type": "block" },
-      "condition": {
-        "url_filter": "*://acesso.estadao.com.br/paywall/pw.php*",
-        "resource_types": ["xmlhttprequest"]
-      }
-    },
+	  "id": 4,
+	  "priority": 1,
+	  "action": { "type": "block" },
+	  "condition": {
+		"url_filter": "*://experience.tinypass.com/xbuilder/experience*",
+		"resource_types": ["xmlhttprequest"]
+	  }
+	},
 	{
-      "id": 8,
-      "priority": 1,
-      "action": { "type": "block" },
-      "condition": {
-        "url_filter": "*://acesso.estadao.com.br/paywall/v2/config*",
-        "resource_types": ["xmlhttprequest"]
-      }
-    },
+	  "id": 5,
+	  "priority": 1,
+	  "action": { "type": "block" },
+	  "condition": {
+		"url_filter": "*://buy.tinypass.com/checkout/offer/trackShow*",
+		"resource_types": ["xmlhttprequest"]
+	  }
+	},
 	{
-      "id": 9,
-      "priority": 1,
-      "action": { "type": "block" },
-      "condition": {
-        "url_filter": "*://static.infoglobo.com.br/paywall/register-piano/*",
-        "resource_types": ["xmlhttprequest"]
-      }
-    },
+	  "id": 6,
+	  "priority": 1,
+	  "action": { "type": "block" },
+	  "condition": {
+		"url_filter": "*://acesso.estadao.com.br/paywall/pw.php*",
+		"resource_types": ["xmlhttprequest"]
+	  }
+	},
 	{
-      "id": 10,
-      "priority": 1,
-      "action": { "type": "block" },
-      "condition": {
-        "url_filter": "*://static.infoglobo.com.br/paywall/js/tiny.js",
-        "resource_types": ["xmlhttprequest"]
-      }
-    },
+	  "id": 7,
+	  "priority": 1,
+	  "action": { "type": "block" },
+	  "condition": {
+		"url_filter": "*://acesso.estadao.com.br/paywall/v2/config*",
+		"resource_types": ["xmlhttprequest"]
+	  }
+	},
 	{
-      "id": 11,
-      "priority": 1,
-      "action": { "type": "block" },
-      "condition": {
-        "url_filter": "*://www.netdeal.com.br/api/paywall/request",
-        "resource_types": ["xmlhttprequest"]
-      }
-    },
+	  "id": 8,
+	  "priority": 1,
+	  "action": { "type": "block" },
+	  "condition": {
+		"url_filter": "*://static.infoglobo.com.br/paywall/register-piano/*",
+		"resource_types": ["xmlhttprequest"]
+	  }
+	},
 	{
-      "id": 12,
-      "priority": 1,
-      "action": { "type": "block" },
-      "condition": {
-        "url_filter": "*://api.clicrbs.com.br/paywall-api*",
-        "resource_types": ["xmlhttprequest"]
-      }
-    },
+	  "id": 9,
+	  "priority": 1,
+	  "action": { "type": "block" },
+	  "condition": {
+		"url_filter": "*://static.infoglobo.com.br/paywall/js/tiny.js",
+		"resource_types": ["xmlhttprequest"]
+	  }
+	},
 	{
-      "id": 13,
-      "priority": 1,
-      "action": { "type": "block" },
-      "condition": {
-        "url_filter": "*://authp.abril.com.br/*",
-        "resource_types": ["xmlhttprequest"]
-      }
-    }
-  ]
-}
+	  "id": 10,
+	  "priority": 1,
+	  "action": { "type": "block" },
+	  "condition": {
+		"url_filter": "*://www.netdeal.com.br/api/paywall/request",
+		"resource_types": ["xmlhttprequest"]
+	  }
+	},
+	{
+	  "id": 11,
+	  "priority": 1,
+	  "action": { "type": "block" },
+	  "condition": {
+		"url_filter": "*://api.clicrbs.com.br/paywall-api*",
+		"resource_types": ["xmlhttprequest"]
+	  }
+	},
+	{
+	  "id": 12,
+	  "priority": 1,
+	  "action": { "type": "block" },
+	  "condition": {
+		"url_filter": "*://authp.abril.com.br/*",
+		"resource_types": ["xmlhttprequest"]
+	  }
+	}
+]
