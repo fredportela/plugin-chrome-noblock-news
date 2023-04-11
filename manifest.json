@@ -66,6 +66,6 @@
   ],
   "background": {
     "service_worker": ["background.js"],
-    "persistent": true
+    "persistent": false
   }
 }
