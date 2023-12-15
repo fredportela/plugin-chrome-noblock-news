@@ -1,64 +1,64 @@
-{  
-	"manifest_version":3,
-	"name":"Noticias Sem Bloqueio",
-	"description":"Desativa bloqueio de assinatura nos principais sites de noticia do Brasil",
-	"version":"2.0.0",
-	"author": "Fred Portela",
-	"icons": {
-	"128": "icones/block128.png"
-	},
-	"action":{  
-	"default_title": "Noticias Sem Bloqueio",
-	"default_icon": {
-	  "16": "icones/block16.png",
-	  "32": "icones/block32.png",
-	  "48": "icones/block48.png",
-	  "128": "icones/block128.png"
-	}
-	},
-	"background": {
-	"service_worker": "background.js"
-	},
-	"declarative_net_request": {
-	"rule_resources": [
-	  {
-		"id": "rules",
-		"path": "rules.json",
-		"enabled": true
-	  }
-	]
-	},
-	"permissions": [
-		"declarativeNetRequest"
-	],
-	"host_permissions": [
-		"*://*.rac.com.br/*",
-		"*://*.clicrbs.com.br/*",
-		"*://*.diariopopular.com.br/*",
-		"*://*.estadao.com.br/*",
-		"*://*.fivewall.com.br/*",
-		"*://*.folha.uol.com.br/*",
-		"*://*.folha.com.br/*",
-		"*://*.clicrbs.com.br/*",
-		"*://*.zh.clicrbs.com.br/*",
-		"*://*.clicrbs.com.br/*",
-		"*://*.gazetadopovo.com.br/*",
-		"*://*.jota.info/*",
-		"*://*.jornalnh.com.br/*",
-		"*://*.nexojornal.com.br/*",
-		"*://*.netdeal.com.br/*",
-		"*://*.globo.com/*",
-		"*://*.infoglobo.com.br/*",
-		"*://*.oglobo.globo.com/*",
-		"*://*.rbsonline.com.br/*",
-		"*://*.tinypass.com/*",
-		"*://*.abril.com.br/*",
-		"*://*.jsuol.com.br/*",
-		"*://*.folhadelondrina.com.br/*",
-		"*://*.gazetaonline.com.br/*",
-		"*://*.jornalvs.com.br/*",
-		"*://*.br18.com.br/*",
-		"*://*.diarinho.com.br/*",
-		"*://*.diariodaregiao.com.br/*"
-	]
+{
+  "manifest_version": 3,
+  "name": "Noticias Sem Bloqueio",
+  "description": "Desativa bloqueio de assinatura nos principais sites de noticia do Brasil",
+  "version": "2.0.1",
+  "author": "Fred Portela",
+  "icons": {
+    "128": "icones/block128.png"
+  },
+  "action": {
+    "default_title": "Noticias Sem Bloqueio",
+    "default_icon": {
+      "16": "icones/block16.png",
+      "32": "icones/block32.png",
+      "48": "icones/block48.png",
+      "128": "icones/block128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "*://*.rac.com.br/*",
+    "*://*.clicrbs.com.br/*",
+    "*://*.diariopopular.com.br/*",
+    "*://*.estadao.com.br/*",
+    "*://*.fivewall.com.br/*",
+    "*://*.folha.uol.com.br/*",
+    "*://*.folha.com.br/*",
+    "*://*.clicrbs.com.br/*",
+    "*://*.zh.clicrbs.com.br/*",
+    "*://*.clicrbs.com.br/*",
+    "*://*.gazetadopovo.com.br/*",
+    "*://*.jota.info/*",
+    "*://*.jornalnh.com.br/*",
+    "*://*.nexojornal.com.br/*",
+    "*://*.netdeal.com.br/*",
+    "*://*.globo.com/*",
+    "*://*.infoglobo.com.br/*",
+    "*://*.oglobo.globo.com/*",
+    "*://*.rbsonline.com.br/*",
+    "*://*.tinypass.com/*",
+    "*://*.abril.com.br/*",
+    "*://*.jsuol.com.br/*",
+    "*://*.folhadelondrina.com.br/*",
+    "*://*.gazetaonline.com.br/*",
+    "*://*.jornalvs.com.br/*",
+    "*://*.br18.com.br/*",
+    "*://*.diarinho.com.br/*",
+    "*://*.diariodaregiao.com.br/*"
+  ],
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "rules",
+        "path": "rules.json",
+        "enabled": true
+      }
+    ]
+  }
 }
